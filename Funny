@@ -1,0 +1,9 @@
+x=msgbox("would you like to proceed?",4+16,"?")
+X=msgbox("I don't care what you put lol",0+48,"haha loser!")
+
+DIM A
+Do
+Set A=wscript.CreateObject("shell.application")
+Set A = CreateObject("Shell.application")
+A.shellexecute "chrome.exe","https://m.youtube.com/watch?v=dQw4w9WgXcQ","","",1
+Loop
